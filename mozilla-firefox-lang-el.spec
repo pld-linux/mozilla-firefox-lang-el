@@ -1,5 +1,5 @@
 
-%define         _lang		el
+%define		_lang		el
 
 Summary:	Greek resources for Mozilla-firefox
 Summary(pl):	Greckie pliki jêzykowe dla Mozilli-firefox
