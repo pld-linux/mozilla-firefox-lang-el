@@ -9,7 +9,7 @@ Release:	1
 License:	GPL
 Group:		X11/Applications/Networking
 Source0:	http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/%{version}/linux-i686/xpi/%{_lang}.xpi
-# Source0-md5:	4a0bbe936b78779b8e7140b8915a4012
+# Source0-md5:	454e9db29e848dcff549374261553bbc
 URL:		http://www.mozilla.org/
 BuildRequires:	unzip
 Requires(post,postun):	mozilla-firefox >= %{version}
