@@ -4,16 +4,14 @@
 Summary:	Greek resources for Mozilla-firefox
 Summary(pl):	Greckie pliki jêzykowe dla Mozilli-firefox
 Name:		mozilla-firefox-lang-%{_lang}
-Version:	1.5.0.8
+Version:	2.0.0.1
 Release:	1
 License:	GPL
 Group:		X11/Applications/Networking
 Source0:	http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/%{version}/linux-i686/xpi/%{_lang}.xpi
-# Source0-md5:	8c580b26b1d1db65d9420abff5a8062b
+# Source0-md5:	653f0fcf5dbb0e76dcf46d6b20ad0fed
 URL:		http://www.mozilla.org/
 BuildRequires:	unzip
-Requires(post,postun):	mozilla-firefox >= %{version}
-Requires(post,postun):	textutils
 Requires:	mozilla-firefox >= %{version}
 Provides:	mozilla-firefox-lang-resources = %{version}
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
