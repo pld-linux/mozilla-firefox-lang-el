@@ -2,12 +2,12 @@
 Summary:	Greek resources for Mozilla-firefox
 Summary(pl.UTF-8):	Greckie pliki językowe dla Mozilli-firefox
 Name:		mozilla-firefox-lang-%{_lang}
-Version:	2.0.0.10
+Version:	2.0.0.11
 Release:	1
 License:	GPL
 Group:		X11/Applications/Networking
 Source0:	http://ftp.mozilla.org/pub/mozilla.org/firefox/releases/%{version}/linux-i686/xpi/%{_lang}.xpi
-# Source0-md5:	bfaf75d1cd929361e086384d7ca60516
+# Source0-md5:	6f67bbb16a765f8b90ca484d01eda3e7
 URL:		http://www.mozilla.org/
 BuildRequires:	unzip
 Requires:	mozilla-firefox >= %{version}
