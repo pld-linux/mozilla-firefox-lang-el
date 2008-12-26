@@ -1,13 +1,13 @@
 %define		_lang		el
-Summary:	Greek resources for Mozilla-firefox
-Summary(pl.UTF-8):	Greckie pliki językowe dla Mozilli-firefox
+Summary:	Greek resources for Firefox
+Summary(pl.UTF-8):	Greckie pliki językowe dla Firefoksa
 Name:		mozilla-firefox-lang-%{_lang}
-Version:	3.0.2
+Version:	3.0.5
 Release:	1
-License:	GPL
+License:	MPL 1.1 or GPL v2+ or LGPL v2.1+
 Group:		I18n
 Source0:	http://releases.mozilla.org/pub/mozilla.org/firefox/releases/%{version}/linux-i686/xpi/%{_lang}.xpi
-# Source0-md5:	26d58a7bff635e384f41659c63042b3c
+# Source0-md5:	e4c3ea55c95aee7e832b89b39c185618
 URL:		http://www.mozilla.org/
 BuildRequires:	unzip
 Requires:	mozilla-firefox >= %{version}
@@ -19,10 +19,10 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %define		_chromedir	%{_firefoxdir}/chrome
 
 %description
-Greek resources for Mozilla-firefox.
+Greek resources for Firefox.
 
 %description -l pl.UTF-8
-Greckie pliki językowe dla Mozilli-firefox.
+Greckie pliki językowe dla Firefoksa.
 
 %prep
 
