@@ -2,12 +2,12 @@
 Summary:	Greek resources for Firefox
 Summary(pl.UTF-8):	Greckie pliki językowe dla Firefoksa
 Name:		mozilla-firefox-lang-%{_lang}
-Version:	3.0.5
+Version:	3.0.7
 Release:	1
 License:	MPL 1.1 or GPL v2+ or LGPL v2.1+
 Group:		I18n
 Source0:	http://releases.mozilla.org/pub/mozilla.org/firefox/releases/%{version}/linux-i686/xpi/%{_lang}.xpi
-# Source0-md5:	e4c3ea55c95aee7e832b89b39c185618
+# Source0-md5:	3dbae9b91f282a6dbce54f8bb7ff2814
 URL:		http://www.mozilla.org/
 BuildRequires:	unzip
 Requires:	mozilla-firefox >= %{version}
